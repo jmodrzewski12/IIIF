@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/jmodrzewski12/IIIF/main/manifests/manifest-exter.json",
+  "id": "https://raw.githubusercontent.com/jmodrzewski12/IIIF/main/manifests/manifest-exter.jsona",
   "type": "Manifest",
   "label": {
     "en": [
