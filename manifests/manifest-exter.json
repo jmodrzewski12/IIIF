@@ -23,7 +23,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                "id": "https://pac.cenagis.edu.pl/iiif-api/iiif/3/exter_E_lepsze.tiff/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3024,
