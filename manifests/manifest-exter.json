@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/jmodrzewski12/IIIF/main/manifests/manifest-exter.json",
+  "id": "https://raw.githubusercontent.com/jmodrzewski12/IIIF/main/manifests/manifest-exter3.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -11,8 +11,8 @@
     {
       "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
       "type": "Canvas",
-      "height": 3024,
-      "width": 4032,
+      "height": 5564,
+      "width": 15804,
       "items": [
         {
           "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1",
@@ -26,41 +26,14 @@
                 "id": "https://pac.cenagis.edu.pl/iiif-api/iiif/3/exter_E_lepsze.tiff/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 3024,
-                "width": 4032,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
-                    "profile": "level1",
-                    "type": "ImageService3"
-                  }
-                ]
+                "height": 5564,
+                "width": 15804
               },
               "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1"
             }
           ]
         }
       ],
-      "annotations": [
-        {
-          "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-1",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "body": {
-                "type": "TextualBody",
-                "language": "de",
-                "format": "text/plain",
-                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen"
-              },
-              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
