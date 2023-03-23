@@ -1,50 +1,62 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/manifest.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "Simple Manifest - Book"
+      "Picture of Göttingen taken during the 2019 IIIF Conference"
     ]
   },
-  "behavior": [
-    "paged"
-  ],
   "items": [
     {
-      "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1",
+      "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Blank page"
-        ]
-      },
-      "height": 4613,
-      "width": 3204,
+      "height": 3024,
+      "width": 4032,
       "items": [
         {
-          "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/page/p1/1",
+          "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/annotation/p0001-image",
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1/anno-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 4613,
-                "width": 3204,
+                "height": 3024,
+                "width": 4032,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
-                    "type": "ImageService3",
-                    "profile": "level1"
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
                   }
                 ]
               },
-              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "de",
+                "format": "text/plain",
+                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1"
             }
           ]
         }
